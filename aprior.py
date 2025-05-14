@@ -18,17 +18,9 @@ data = {
 }
 
 print(min_support)
+
 for k,v in data.items():
-    for i in v:
-        unique_items.add(int(v[i]))
-print(unique_items)
-
-
-
-
-
-
-
+    print(k,v)
 # Algorithm
 
 
